@@ -66,6 +66,7 @@ The application is built with:
 
 ## Project Structure
 
+```
 financial_marketing/
 │
 ├── app/                              # Main application package
@@ -110,7 +111,7 @@ financial_marketing/
 │
 ├── requirements.txt                  # Project dependencies
 └── .env.example                      # Example environment variables
-
+```
 
 ## Getting Started
 
@@ -189,7 +190,6 @@ Once the server is running, you can access detailed API documentation at:
 
 Key environment variables required for the application:
 
-```
 # API Settings
 API_V1_STR=/api/v1
 PROJECT_NAME=Financial Marketing Compliance Platform
@@ -213,7 +213,6 @@ FIRST_SUPERUSER_PASSWORD=admin_password
 
 # CORS
 CORS_ORIGINS=http://localhost,http://localhost:8080
-```
 
 ## Contributing
 
